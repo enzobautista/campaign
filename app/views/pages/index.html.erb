@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
 <section class="s0">
 	
 </section>
@@ -39,7 +41,7 @@
 		
 	</div>
 </section>
-<section class="s3">
+<section id="s3" data-parallax="scroll" data-image-src="/assets/vision.jpg">
 
 	<center>
 	<br><br><br><br><br><br>
@@ -90,3 +92,11 @@
 
 
 </section>
+ <script src="/assets/parallax.js"></script>
+ <script type="text/javascript">
+
+ 
+  $('#s3').parallax({imageSrc: '/assets/vision.jpg'});
+  $('#as3').parallax({imageSrc: '/assets/36.jpg'});
+  $('#as4').parallax({imageSrc: '/assets/37.jpg'});
+  </script>
