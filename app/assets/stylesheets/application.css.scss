@@ -1,0 +1,135 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+ 	overflow-x:hidden;
+ 	margin: 0; 
+ 	padding: 0;
+ }
+ .s0{
+	margin-top: -10px;
+	height:50vh;
+	width: 100vw;
+	background-color: #b2b2b2;
+	position: relative;
+	z-index: 9;
+}
+.s1{
+	margin-top: -50vh;
+	height:110vh;
+	width: 100vw;
+	background-color: transparent;
+	background-image: url('/assets/landing.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 14;
+}
+.s2{
+	margin-top: -20vh;
+	height:220vh;
+	width: 101vw;
+	background-color: #b2b2b2;
+	background-image: url('/assets/me.png');
+	background-size: cover;
+	position: relative;
+	background-position: right bottom;
+	z-index: 10;
+	padding-top: 50vh;
+}
+.s2-cont{
+	padding-top: 50px;
+
+}
+.s-title{
+ font-family: 'Roboto';
+ font-size: 4em;
+ font-weight: 500;
+ letter-spacing: 15px;
+ color: #252525;
+ margin-left: 11px;
+}
+.sub-text{
+ font-family: 'Roboto';
+ font-size: 2.1em;
+ font-weight: 300;
+}
+.brc{
+   display: block;
+   margin: -9px 0;
+   line-height: 0px;
+   content: " ";
+}
+.s-title1{
+ font-family: 'Roboto';
+ font-size: 2.8em;
+ font-weight: 500;
+ letter-spacing: 4px;
+ color:#363636;
+}
+.s-q{
+ font-family: 'Roboto';
+ font-size: 1.2em;
+ font-weight: 500;
+ letter-spacing: 2px;
+ color:#363636;
+text-align: justify;
+}
+.s-div{
+	width:34vw;
+	margin-left: 10vw;
+}
+.s-q1{
+ font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:#363636;
+ text-align: justify;
+}
+.brd{
+   display: block;
+   margin: 10px 0;
+   line-height: 0px;
+   content: " ";
+}
+.spanc{
+	margin-left: 28px;
+}
+.s3{
+	height:110vh;
+	width: 100vw;
+	background-color: transparent;
+	background-image: url('/assets/vision.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 14;
+}
+.s-row{
+	height: 30vh;
+}
+.s-q2{
+ font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:white;
+ text-align: center;
+}
+.s4{
+	height:110vh;
+	background-color: ;
+}
