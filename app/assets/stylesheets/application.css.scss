@@ -27,7 +27,7 @@
 	z-index: 9;
 }
 .s1{
-	margin-top: -50vh;
+	margin-top: -53.9vh;
 	height:110vh;
 	width: 100vw;
 	background-color: transparent;
@@ -38,7 +38,7 @@
 	z-index: 14;
 }
 .s2{
-	margin-top: -20vh;
+	margin-top: -23vh;
 	height:220vh;
 	width: 101vw;
 	background-color: #b2b2b2;
@@ -134,6 +134,57 @@ text-align: justify;
 	background-color: #192F3A;
 }
 .s5{
-	height:110vh;
-	ackground-image: url('/assets/vision.jpg');
+	height:38vh;
+	background-image: url('/assets/mission.jpg');
+	background-size: cover;
+}
+.s-q3{
+ font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:white;
+ text-align: center;
+ margin-top: -11.7vh;
+}
+.s6{
+	height:140vh;
+	background-color: #989692;
+}
+.s-q4{
+ font-family: 'Roboto';
+ font-size: 1.4em;
+ font-weight: 300;
+ letter-spacing: 2px;
+ color:white;
+ text-align: center;
+ margin-top: -11.7vh;
+}
+.s6-col1{
+	height: 90vh;
+	background-color: #192F3A;
+	width:25vw;
+	border-radius: 15px;
+	float:left;
+	margin-left: 9.5vw;
+	margin-top: 4vh;
+}
+.s6-col2{
+	height: 90vh;
+	background-color: #192F3A;
+	width:25vw;
+	border-radius: 15px;
+	float:left;
+	margin-left: 2vw;
+	margin-top: 4vh;
+	
+}
+.s6-col3{
+	height: 90vh;
+	background-color: #192F3A;
+	width:25vw;
+	border-radius: 15px;
+	float: left;
+	margin-left: 2vw;
+	margin-top: 4vh;
 }
