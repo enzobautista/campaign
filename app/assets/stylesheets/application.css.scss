@@ -168,6 +168,8 @@ text-align: justify;
 	float:left;
 	margin-left: 9.5vw;
 	margin-top: 4vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
 }
 .s6-col2{
 	height: 90vh;
@@ -177,6 +179,8 @@ text-align: justify;
 	float:left;
 	margin-left: 2vw;
 	margin-top: 4vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
 	
 }
 .s6-col3{
@@ -187,6 +191,17 @@ text-align: justify;
 	float: left;
 	margin-left: 2vw;
 	margin-top: 4vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+.s6-col1:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.s6-col2:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.s6-col3:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /*CD TOP*/
