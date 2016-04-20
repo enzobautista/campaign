@@ -162,7 +162,7 @@ text-align: justify;
  margin-top: -11.7vh;
 }
 .s6-col1{
-	height: 95vh;
+	min-height: 95vh;
 	background-color: #192F3A;
 	width:25vw;
 	border-radius: 15px;
@@ -181,7 +181,7 @@ text-align: justify;
  padding-right: 20px;
 }
 .s6-col2{
-	height: 95vh;
+	min-height: 95vh;
 	background-color: #192F3A;
 	width:25vw;
 	border-radius: 15px;
@@ -201,7 +201,7 @@ text-align: justify;
 	
 }
 .s6-col3{
-	height: 95vh;
+	min-height: 95vh;
 	background-color: #192F3A;
 	width:25vw;
 	border-radius: 15px;
@@ -282,6 +282,11 @@ text-align: justify;
 	border: solid 2px white;
 	margin-top: 20px;
 	border-radius: 5px;
+	 font-family: 'Roboto';
+	 font-size: 1.3em;
+	 font-weight: 500;
+	 letter-spacing: 2px;
+	 color:white;
 }
 .cform{
 	height:57vh;
@@ -290,6 +295,7 @@ text-align: justify;
 	z-index:2!important;
 	width:50vw;
 	margin-left: 27vw;
+	position: relative;
 }
 .divider2{
 	border: 1px white solid;
