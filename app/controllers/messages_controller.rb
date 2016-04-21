@@ -14,6 +14,9 @@ class MessagesController < ApplicationController
 
   # GET /messages/new
   def new
+    if params['submit'].present?
+      @thanks = "Your message has been sent! Thank you. I will try to reply as soon as possible."
+    end
     @message = Message.new
   end
 
@@ -28,7 +31,7 @@ class MessagesController < ApplicationController
 
     respond_to do |format|
       if @message.save
-        format.html { redirect_to @message, notice: 'Message was successfully created.' }
+        format.html { redirect_to root_path(submit: 'y'), notice: 'Message was successfully created.' }
         format.json { render :show, status: :created, location: @message }
       else
         format.html { render :new }

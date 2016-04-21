@@ -142,7 +142,7 @@ text-align: justify;
  font-family: 'Roboto';
  font-size: 1em;
  font-weight: 300;
- letter-spacing: 2px;
+ letter-spacing: 1px;
  color:white;
  text-align: center;
  margin-top: -11.7vh;
@@ -332,11 +332,19 @@ font-family: 'Roboto';
 }
 .col-text1{
 font-family: 'Roboto';
- font-size: 1.2em;
+ font-size: 1em;
  font-weight: 300;
  letter-spacing: 1px;
  color:white;
 
+}
+.swot-t{
+font-family: 'Roboto';
+ font-size: 1em;
+ font-weight: 300;
+ letter-spacing: 1px;
+ color:white;
+ text-align: left;
 }
 .blink_me {
     -webkit-animation-name: blinker;
@@ -440,4 +448,7 @@ float:left;
  color:white;
  margin-left: 2vw;
  margin-top: 4.65vh;
+}
+.error {
+  background-color: transparent!important;
 }

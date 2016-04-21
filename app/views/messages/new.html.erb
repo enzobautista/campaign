@@ -68,24 +68,38 @@
 	<div class="col-xs-offset-2 col-xs-4 swot" >
 		<div class="row">
 			<div class="swotbox" style="margin-right:20px;text-align: left;padding-left:1vw;padding-top:1vh;">
-			STRENGTHS
+			STRENGTHS<br><br>
+			<ul class="swot-t">
+				<li>Steady income stream</li>
+				<li>Strong branding</li>
+				<li>Sustainable leadership</li>
+			</ul>
 			</div>
 		</div>
 		<div class="row">
 			<div class="swotbox" style="margin-right:20px;text-align: left;padding-left:1vw;padding-top:1vh;">
-			OPPORTUNITIES
+			OPPORTUNITIES<br><br>
+			<ul class="swot-t">
+				<li>Focused officer training due to smaller member base</li>
+			</ul>
 			</div>
 		</div>
 	</div>
 	<div class="col-xs-4 swot">
 		<div class="row" style="margin-top:13vh;">
 			<div class="swotbox" style="margin-left:20px;text-align: right;padding-top:1vh;padding-right:1vw;">
-			WEAKNESSES
+			WEAKNESSES<br><br>
+			<ul class="swot-t">
+				<li>Lack of member involvement in core competency</li>
+			</ul>
 			</div>
 		</div>
 		<div class="row">
 			<div class="swotbox" style="margin-left:20px;text-align: right;padding-top:1vh;padding-right:1vw;">
-			THREATS
+			THREATS<br><br>
+			<ul class="swot-t">
+				<li>Reduced manpower from incoming freshman batch</li>
+			</ul>
 			</div>
 		</div>
 	</div>
@@ -172,23 +186,13 @@ develop <span class="s-q5b">SERVANT-LEADERSHIP</span> through IM Outreach, a cha
 <%= image_tag "/assets/suit.png", :style=>"margin-left:-4vw;z-index:3!important;position:absolute;bottom:0;" %>
 <%= image_tag "/assets/hex.png", :style=>"z-index:0!important;position:absolute;bottom:0;right:-7vw;" %>
 <%= form_for(@message) do |f| %>
-  <% if @message.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@message.errors.count, "error") %> prohibited this message from being saved:</h2>
-
-      <ul>
-      <% @message.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+  
 <div class="row" style="margin-top:0vh;">
 	<div class="cform">
 	<div class="divsh" style="width:14vw; float:left; margin-left:1vw;">
 	<div style="width:98%;height:4vh;background-color:white; padding-top:5.5px;">
 		<span class="cf-font">NAME</span>
-		<%= f.text_field :name,:style=>"margin-top:10px;width:100%;background-color:transparent;border: 2px solid white;line-height:1.4em; padding:5px;",:class=>"c-text" %>
+		<%= f.text_field :name,:class=>"c-text",:style=>"margin-top:10px;width:100%;background-color:transparent;border: 2px solid white;line-height:1.4em; padding:5px;" %>
 	</div>
 		<div style="width:98%;height:4vh;background-color:white; padding-top:5.5px; margin-top:50px;">
 		<span class="cf-font">EMAIL</span>
@@ -219,6 +223,17 @@ border-color:transparent;" class="blink_me" />
 <%= image_tag "/assets/misa.png", :style=>"float:right;height:10.5vh;margin-top:1.25vh;margin-right:1.25vh;" %>
 </section>
 <a href="#0" class="cd-top">Top</a>
+  <script>
+  window.onload=function(){
+
+ 
+    <% if @thanks.present? %>
+alert("<%= @thanks %>");
+<% end %>
+  };
+
+</script>
+
 	<script src="assets/modernizr.js"></script>
  <script src="/assets/parallax.js"></script>
  <script type="text/javascript">
@@ -272,3 +287,4 @@ jQuery(document).ready(function($){
   <script>
   new WOW().init();
   </script> 
+
